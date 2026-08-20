@@ -4,7 +4,7 @@ export default function Input() {
   return (
     <div className="bg-[#2D2C2C] w-4xl min-h-36 border-2 rounded-2xl border-[#3b3b3b] flex flex-col justify-between p-4">
       <InputBase
-        multiline
+        multiline={true}
         className="w-full"
         placeholder="Explain useEffect like I'm 5 years old"
         slotProps={{
