@@ -13,8 +13,8 @@ export default function Input() {
               fontSize: 16,
               color: '#FFFFFF',
               '&::placeholder': {
-                color: '#9CA3AF', // Change color
-                opacity: 0.5, // Override MUI's default lower opacity
+                color: '#9CA3AF',
+                opacity: 0.5,
               },
             },
           },
