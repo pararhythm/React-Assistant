@@ -1,3 +1,5 @@
+import Input from '../components/Input';
+
 export default function Home() {
   return (
     <div
@@ -5,11 +7,13 @@ export default function Home() {
       flex
       flex-col
       justify-center
-      items-center"
+      items-center
+      gap-5"
     >
       <h2 className="text-[#EDEDED] font-bold text-3xl text-center">
         What are you working on today ?
       </h2>
+      <Input />
     </div>
   );
 }
