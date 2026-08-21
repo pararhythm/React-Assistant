@@ -16,12 +16,11 @@ export default function AttachmentMenu({anchorEl, onClose, onSelect}: Attachment
         slotProps={{
         paper: {
             sx: {
-                backgroundColor: '#252525', // Dark background
-                color: '#FFFFFF',          // Light text
-                borderRadius: '12px',       // Rounded corners
-                border: '1px solid #3b3b3b', // Subtly lighter border
+                backgroundColor: '#252525',
+                color: '#FFFFFF',          
+                borderRadius: '12px',       
+                border: '1px solid #3b3b3b', 
                 padding: '8px',
-                // Add custom styles for padding, box-shadow, etc.
                 }
             }
         }}
