@@ -1,4 +1,5 @@
 import { InputBase } from '@mui/material';
+import AttachFileIcon from '@mui/icons-material/AttachFile';
 
 export default function Input() {
   return (
@@ -20,8 +21,10 @@ export default function Input() {
           },
         }}
       />
-      <div className="input-toolbar">
-        <div className="left-toolbar"></div>
+      <div className="flex flex-row justify-between">
+        <div className="border-2 rounded-2xl bg-transparent border-white/15 flex items-center justify-center w-8 h-8">
+          <AttachFileIcon sx={{color: "#FFFFFF", opacity: 20, fontSize: "1rem", transform: 'rotate(45deg)'}}  />
+        </div>
         <div className="right-toolbar"></div>
       </div>
     </div>
